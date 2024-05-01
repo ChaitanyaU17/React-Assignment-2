@@ -1,0 +1,25 @@
+1) => 1) UseState = 1) UseState is a main state management tool
+
+							     2) Great for independent pieces of state/data
+
+                                 3) Great if state updates are easy and limited to a few kinds of updates
+
+
+
+          2) UseReducer = 1) Great if you need "more power"
+
+								      2) should be considered if you have related peicesof state data
+
+									  3) can be helpful if you have more complex state updates
+
+
+
+2) => 1) => the problem arises when you are passing a lot of data to a many components via       props
+
+		  2) => prop chain which areuse to forward data through the component to our component
+
+		  3) => we plan to solve basically we are forwarding data through the mai header to the navigation component on props we received in the main header even though we dont really need the data therefore in bigger apps you easily build such prop chain which are useto forward data through component to  our component
+
+
+
+3) => 1) => 
